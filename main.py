@@ -16,6 +16,8 @@ async def on_ready():
             members = '\n - '.join([member.name for member in guild.members])
             print(f"The following users are in {guild.name}:\n - {members}")
 
+print("hmm")
+
 
 
 
